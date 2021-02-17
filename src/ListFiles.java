@@ -14,7 +14,7 @@ public class ListFiles {
 
     public static void main(String[] args){
         try{
-            ListFiles list = new ListFiles("/home/gus/IdeaProjects/prova-estagio-java");
+            new ListFiles("/home/gus/IdeaProjects/prova-estagio-java");
         }catch (IOException e){
             e.printStackTrace();
         }
